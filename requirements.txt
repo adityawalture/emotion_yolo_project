@@ -9,4 +9,5 @@ numpy
 tqdm
 scikit-learn
 python-multipart
-
+streamlit
+tempfile

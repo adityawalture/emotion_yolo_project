@@ -10,4 +10,3 @@ async def detect_emotions(video: UploadFile = File(...)):
         shutil.copyfileobj(video.file, buffer)
     output_path = detect_emotions_from_video("temp.mp4")
     return {"processed_video": output_path}
-
