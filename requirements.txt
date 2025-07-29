@@ -1,13 +1,12 @@
-torch>=2.2.0
+streamlit
+torch
 torchvision
 ultralytics
 opencv-python
 fastapi
-uvicorn
 pillow
 numpy
 tqdm
 scikit-learn
 python-multipart
-streamlit
 
