@@ -3,10 +3,17 @@ import torchvision.transforms as transforms
 from torchvision.models import resnet18
 from PIL import Image
 
+import os
+
+
+
+
 # Load Model
 model = resnet18()
 model.fc = torch.nn.Linear(model.fc.in_features, 7)
-model.load_state_dict(torch.load(r'models\resnet18_emotion.pth', map_location=torch.device("cuda" if torch.cuda.is_available() else "cpu")))
+model.load_state_dict(torch.load(r'models/resnet18_emotion.pth', map_location=torch.device("cuda" if torch.cuda.is_available() else "cpu")))
+# model_path = os.path.join("models", "resnet18_emotion.pth")
+# model.load_state_dict(torch.load(model_path, map_location=torch.device("cuda" if torch.cuda.is_available() else "cpu")))
 model.eval()
 
 # Classes
@@ -35,3 +42,5 @@ def predict_emotion(face_img):
 # img_path = r'D:\hipster\hipster\emotion_yolo_project\datasets\fer2013\versions\1\test\disgust\PrivateTest_807646.jpg'
 # face_img = cv2.imread(img_path, cv2.IMREAD_GRAYSCALE)
 # print(predict_emotion(face_img))
+
+# print("executed")

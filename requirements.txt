@@ -10,4 +10,4 @@ tqdm
 scikit-learn
 python-multipart
 streamlit
-tempfile
+gradio
