@@ -43,7 +43,7 @@ def convert_and_prepare_video(input_video):
 
 
 st.set_page_config(page_title="Live Emotion Detection", layout="centered")
-st.title("🎭 Emotion Detection from Video")
+st.title("🎭 Hipster YoloV8 Emotion Detection from Video")
 
 uploaded_video = st.file_uploader("Upload a video file", type=["mp4", "mov", "avi"])
 

@@ -1,0 +1,4 @@
+[server]
+headless = true
+enableWatcher = false
+port = 8501
