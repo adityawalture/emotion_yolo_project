@@ -1,13 +1,1 @@
-torch>=2.2.0
-torchvision
-ultralytics
-opencv-python
-fastapi
-uvicorn
-pillow
-numpy
-tqdm
-scikit-learn
-python-multipart
-streamlit
 libgl1
