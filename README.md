@@ -50,7 +50,7 @@ emotion_yolo_project/
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/emotion_yolo_project.git
+git clone https://github.com/adityawalture/emotion_yolo_project.git
 cd emotion_yolo_project
 
 # Create virtual environment
